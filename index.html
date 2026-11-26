@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Viewport & SEO Metadata -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Practical Guide to Primary Eye Care | Ratan Kalita </title>
+  <meta
+    name="description"
+    content="Official author hub for The Practical Guide to Primary Eye Care: A Field Guide to Clinical Reasoning, Examination, Communication, and Safe Practice by Ratan Kalita."
+  />
+
+  <!-- Fonts & Tailwind CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Custom Theme Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            clinical: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              600: '#0d9488',
+              700: '#0f766e',
+              800: '#115e59',
+              900: '#134e4a',
+            },
+            slateink: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              200: '#e2e8f0',
+              600: '#475569',
+              700: '#334155',
+              800: '#1e293b',
+              900: '#0f172a',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- JSON-LD Structured Data for Book & Author SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "The Practical Guide to Primary Eye Care",
+      "alternateName": "The Practical Guide to Primary Eye Care: A Field Guide to Clinical Reasoning, Examination, Communication, and Safe Practice",
+      "author": {
+        "@type": "Person",
+        "name": "Ratan Kalita",
+        "honorificSuffix": "BS optometry",
+        "description": "Clinical optometrist with over 20 years of hands-on experience across private practice, community eye care, and hospital outpatient settings."
+      },
+      "inLanguage": "en",
+      "genre": ["Clinical Optometry", "Primary Eye Care", "Allied Health Sciences"],
+      "workExample": [
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.in/dp/B0HSJLS2W1",
+          "offers": {
+            "@type": "Offer",
+            "price": "249",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.amazon.in/dp/B0HSJLS2W1"
+          }
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.com/dp/B0HSJLS2W1",
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.amazon.com/dp/B0HSJLS2W1"
+          }
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/Paperback",
+          "identifier": "RRRNA-Ref: 62494|ISBN|2026|A",
+          "bookEdition": "First Edition (ISBN Allotment in Progress)"
+        }
+      ]
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'sans-serif';
+      background-color: #f8fafc;
+      color: #0f172a;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-clinical-100 selection:text-clinical-900">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slateink-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      <a href="#top" class="flex items-center gap-2.5 min-w-0">
+        <span class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-clinical-700 text-white text-xs font-bold tracking-tight">
+          RK
+        </span>
+        <span class="font-semibold text-sm sm:text-base text-slateink-900 truncate">
+          Ratan Kalita <span class="hidden sm:inline text-slateink-600 font-normal">| Primary Eye Care Hub</span>
+        </span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slateink-700">
+        <a href="#who-its-for" class="hover:text-clinical-700 transition-colors">Who It's For</a>
+        <a href="#whats-inside" class="hover:text-clinical-700 transition-colors">What's Inside</a>
+        <a href="#about-author" class="hover:text-clinical-700 transition-colors">Author</a>
+        <a
+          href="#institutional-inquiries"
+          class="px-3.5 py-2 rounded-lg bg-clinical-700 text-white hover:bg-clinical-800 transition-colors"
+        >
+          Bulk &amp; Institutional
+        </a>
+      </nav>
+
+      <a
+        href="https://www.amazon.in/dp/B0HSJLS2W1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="md:hidden px-3.5 py-2 rounded-lg bg-clinical-700 text-white text-xs font-semibold hover:bg-clinical-800 transition-colors shrink-0"
+      >
+        Kindle ₹249
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-clinical-50/70 via-white to-slateink-50 border-b border-slateink-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 lg:py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+
+          <!-- Book Cover Frame (Drop cover.jpg into the same folder as index.html) -->
+          <div class="lg:col-span-5 flex justify-center">
+            <div class="w-full max-w-[300px] sm:max-w-[330px] rounded-2xl bg-white p-3 sm:p-4 shadow-lg ring-1 ring-slateink-200">
+              <div class="relative aspect-[2/3] w-full rounded-xl overflow-hidden bg-slateink-900 text-white flex flex-col justify-between p-6 border border-clinical-800/40">
+                <!-- Fallback Cover Visual when cover.jpg is not yet placed alongside index.html -->
+                <div
+                  id="cover-fallback"
+                  class="absolute inset-0 flex flex-col justify-between p-6 bg-gradient-to-br from-slateink-900 via-slateink-800 to-clinical-900"
+                >
+                  <div>
+                    <span class="inline-block px-2.5 py-1 rounded-md bg-clinical-600/25 border border-clinical-400/30 text-clinical-100 text-[11px] font-semibold uppercase tracking-wider">
+                      Clinical Field Guide
+                    </span>
+                    <h2 class="mt-4 text-xl sm:text-2xl font-bold leading-snug tracking-tight text-white">
+                      The Practical Guide to Primary Eye Care
+                    </h2>
+                    <p class="mt-2.5 text-xs sm:text-sm text-slate-200 leading-relaxed">
+                      A Field Guide to Clinical Reasoning, Examination, Communication, and Safe Practice
+                    </p>
+                  </div>
+                  <div class="pt-4 border-t border-white/15">
+                    <p class="text-sm font-semibold text-white">Ratan Kalita </p>
+                    <p class="text-[11px] text-clinical-100 mt-0.5">
+                      20+ Years in Clinical Optometry Practice &amp; Mentorship
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Drop cover.jpg into the same GitHub Pages folder to display automatically -->
+                <img
+                  src="cover.jpg"
+                  alt="Cover of The Practical Guide to Primary Eye Care by Ratan Kalita"
+                  class="relative z-10 w-full h-full object-cover rounded-lg"
+                  onload="document.getElementById('cover-fallback').style.display='none';"
+                  onerror="this.style.display='none';"
+                />
+              </div>
+              <p class="mt-3 text-center text-[11px] text-slateink-600">
+                Place <code class="px-1.5 py-0.5 rounded bg-slateink-100 text-slateink-800">cover.jpg</code> in root folder to render cover art.
+              </p>
+            </div>
+          </div>
+
+          <!-- Hero Copy & Primary Actions -->
+          <div class="lg:col-span-7 space-y-6">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-clinical-100 text-clinical-800">
+                Kindle Live • Enrolled in KDP Select &amp; Kindle Unlimited
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-slateink-100 text-slateink-700 border border-slateink-200">
+                Clinical Optometry &amp; Primary Eye Care
+              </span>
+            </div>
+
+            <div class="space-y-3">
+              <h1 class="text-2xl sm:text-4xl lg:text-[2.5rem] font-bold tracking-tight text-slateink-900 leading-[1.15]">
+                The Practical Guide to Primary Eye Care
+              </h1>
+              <p class="text-base sm:text-lg font-medium text-clinical-800 leading-snug">
+                A Field Guide to Clinical Reasoning, Examination, Communication, and Safe Practice
+              </p>
+              <p class="text-sm sm:text-base font-semibold text-slateink-700">
+                By <span class="text-slateink-900">Ratan Kalita</span>
+                <span class="block sm:inline sm:ml-2 font-normal text-slateink-600">
+                  • 20+ years across private practice, community eye care &amp; hospital outpatient clinics
+                </span>
+              </p>
+            </div>
+
+            <p class="text-sm sm:text-base text-slateink-700 leading-relaxed max-w-2xl">
+              Textbooks teach what conditions look like; real-world outpatient clinics test how you think, triage, refract, examine, communicate, and keep patients safe under time pressure. This field guide bridges classroom theory and chairside clinical judgment.
+            </p>
+
+            <!-- Primary Kindle Buy Buttons -->
+            <div class="flex flex-col sm:flex-row flex-wrap gap-3 pt-1">
+              <a
+                href="https://www.amazon.in/dp/B0HSJLS2W1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center px-5 py-3.5 rounded-xl bg-clinical-700 text-white text-sm font-semibold shadow-sm hover:bg-clinical-800 focus:outline-none focus:ring-2 focus:ring-clinical-600 focus:ring-offset-2 transition-colors"
+              >
+                Buy Kindle Edition — Amazon.in (₹299)
+              </a>
+
+              <a
+                href="https://www.amazon.com/dp/B0HSJLS2W1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center px-5 py-3.5 rounded-xl bg-white text-slateink-900 text-sm font-semibold border border-slateink-300 hover:bg-slateink-100 focus:outline-none focus:ring-2 focus:ring-clinical-600 focus:ring-offset-2 transition-colors"
+              >
+                Buy Kindle Edition — Amazon.com (Global)
+              </a>
+            </div>
+
+            <!-- Paperback Status Card -->
+            <div class="rounded-xl bg-white p-4 sm:p-5 border border-slateink-200 shadow-xs space-y-2.5">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-slateink-800">
+                  Paperback Edition Status
+                </span>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-800 border border-amber-200">
+                  ISBN Allotment in Progress
+                </span>
+              </div>
+              <p class="text-xs sm:text-sm text-slateink-700 leading-relaxed">
+                Application submitted to RRRNA (<code class="px-1.5 py-0.5 rounded bg-slateink-100 text-slateink-900 font-medium">Ref: 62494|ISBN|2026|A</code>). Print layout and bulk institutional distribution for Indian colleges, eye hospitals, and optical chains will follow ISBN assignment.
+              </p>
+              <div>
+                <a
+                  href="#institutional-inquiries"
+                  class="inline-flex items-center text-xs sm:text-sm font-semibold text-clinical-700 hover:text-clinical-800 underline underline-offset-4"
+                >
+                  Jump to Institutional &amp; Bulk Paperback Inquiries →
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Who This Field Guide Is For -->
+    <section id="who-its-for" class="py-14 sm:py-16 bg-white border-b border-slateink-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mb-10">
+          <p class="text-xs font-bold uppercase tracking-wider text-clinical-700">Target Audience</p>
+          <h2 class="mt-1.5 text-2xl sm:text-3xl font-bold tracking-tight text-slateink-900">
+            Who This Field Guide Is For
+          </h2>
+          <p class="mt-2.5 text-sm sm:text-base text-slateink-600">
+            Written for clinicians and trainees building reliable outpatient habits from day one at the chair.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <article class="rounded-xl bg-slateink-50 p-6 border border-slateink-200 flex flex-col">
+            <h3 class="text-base font-bold text-slateink-900">B.Optom Students &amp; Interns</h3>
+            <p class="mt-2.5 text-sm text-slateink-700 leading-relaxed">
+              Bridge the transition from classroom theory and exam notes to confident, structured outpatient postings and clinical rotations.
+            </p>
+          </article>
+
+          <article class="rounded-xl bg-slateink-50 p-6 border border-slateink-200 flex flex-col">
+            <h3 class="text-base font-bold text-slateink-900">Early-Career Optometrists</h3>
+            <p class="mt-2.5 text-sm text-slateink-700 leading-relaxed">
+              Strengthen independent clinical reasoning, avoid subtle diagnostic traps, and manage high-volume clinic days with composure.
+            </p>
+          </article>
+
+          <article class="rounded-xl bg-slateink-50 p-6 border border-slateink-200 flex flex-col">
+            <h3 class="text-base font-bold text-slateink-900">Ophthalmic Assistants &amp; Technicians</h3>
+            <p class="mt-2.5 text-sm text-slateink-700 leading-relaxed">
+              Build clear pre-examination habits, accurate workups, and dependable support workflows across hospital and optical teams.
+            </p>
+          </article>
+
+          <article class="rounded-xl bg-slateink-50 p-6 border border-slateink-200 flex flex-col">
+            <h3 class="text-base font-bold text-slateink-900">Junior Ophthalmology Residents</h3>
+            <p class="mt-2.5 text-sm text-slateink-700 leading-relaxed">
+              Reinforce foundational refraction, primary triage, and co-management clarity alongside optometry and nursing colleagues.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: What's Inside -->
+    <section id="whats-inside" class="py-14 sm:py-16 bg-slateink-50 border-b border-slateink-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mb-10">
+          <p class="text-xs font-bold uppercase tracking-wider text-clinical-700">Chairside Workflows</p>
+          <h2 class="mt-1.5 text-2xl sm:text-3xl font-bold tracking-tight text-slateink-900">
+            What’s Inside the Guide
+          </h2>
+          <p class="mt-2.5 text-sm sm:text-base text-slateink-600">
+            Practical clinical reasoning structured around real outpatient encounters rather than abstract memorization.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="rounded-xl bg-white p-6 border border-slateink-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              01 • Triage &amp; Urgency
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Triage &amp; Red-Eye Sorting</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Separate routine outpatient complaints from urgent ocular threats early, recognize red flags quickly, and structure safe referral decisions.
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-white p-6 border border-slateink-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              02 • Optics &amp; Refraction
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Retinoscopy &amp; Subjective Refraction Traps</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Spot accommodative pitfalls, over-minusing, axis/cylinder hesitations, and patient responses that mislead routine refraction endpoints.
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-white p-6 border border-slateink-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              03 • Anterior Segment
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Systematic Slit-Lamp Sweep</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Move beyond aimless looking with a repeatable, structured anterior-segment examination sequence that catches subtle clinical clues.
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-white p-6 border border-slate-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              04 • Posterior &amp; IOP Screening
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Glaucoma Gateway &amp; Dilated Fundus Habits</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Avoid false reassurance from single pressure readings, weigh risk factors thoughtfully, and build reliable fundus and screening habits.
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-white p-6 border border-slateink-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              05 • Pediatric &amp; Contact Lenses
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Pediatric &amp; Contact Lens Safety</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Adapt examination techniques for children and protect corneal health with disciplined contact lens fitting, follow-up, and wear hygiene.
+            </p>
+          </div>
+
+          <div class="rounded-xl bg-white p-6 border border-slateink-200 shadow-2xs">
+            <span class="inline-block text-xs font-bold text-clinical-700 bg-clinical-50 px-2.5 py-1 rounded-md">
+              06 • Care &amp; Records
+            </span>
+            <h3 class="mt-3 text-lg font-bold text-slateink-900">Clinical Communication &amp; Documentation</h3>
+            <p class="mt-2 text-sm text-slateink-700 leading-relaxed">
+              Explain findings clearly to anxious patients and families, and maintain clean, accurate clinical notes that support continuity of care.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: About the Author -->
+    <section id="about-author" class="py-14 sm:py-16 bg-white border-b border-slateink-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-2xl bg-clinical-50/60 border border-slateink-200 p-6 sm:p-10">
+          <div class="max-w-3xl space-y-4">
+            <p class="text-xs font-bold uppercase tracking-wider text-clinical-700">About the Author</p>
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-slateink-900">
+              Ratan Kalita
+            </h2>
+            <p class="text-sm sm:text-base text-slateink-700 leading-relaxed">
+              <strong>Ratan Kalita</strong>, is a clinical optometrist with more than 20 years of hands-on experience across private practice, community eye care, and hospital outpatient settings. Over two decades of clinical work, he has examined tens of thousands of patients and mentored numerous optometry students, interns, and new graduates transitioning from academic study into independent practice.
+            </p>
+            <p class="text-sm sm:text-base text-slateink-700 leading-relaxed">
+              Working closely with ophthalmologists, fellow optometrists, nurses, and allied eye-care staff, he shaped a practical, safety-minded approach to primary eye care—captured in <em>The Practical Guide to Primary Eye Care</em> so students and clinicians do not have to learn every chairside lesson the hard way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Institutional & Bulk Paperback Inquiry -->
+    <section id="institutional-inquiries" class="py-14 sm:py-16 bg-slateink-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="rounded-2xl bg-white border border-slateink-200 p-6 sm:p-10 shadow-xs">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-7 space-y-3">
+              <p class="text-xs font-bold uppercase tracking-wider text-clinical-700">
+                Colleges • Eye Hospitals • Optical Chains
+              </p>
+              <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-slateink-900">
+                Institutional &amp; Bulk Paperback Inquiries
+              </h2>
+              <p class="text-sm sm:text-base text-slateink-700 leading-relaxed">
+                Planning intern induction kits, department reference copies, or multi-branch staff training for your optometry school, eye hospital, or optical chain? Reach out directly to coordinate bulk paperback availability once ISBN allotment (<code class="px-1.5 py-0.5 rounded bg-slateink-100 text-slateink-900">62494|ISBN|2026|A</code>) completes.
+              </p>
+            </div>
+
+            <div class="lg:col-span-5 space-y-3">
+              <div class="rounded-xl bg-slateink-50 p-4 border border-slateink-200">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slateink-600">Direct Author Contact</p>
+                <p id="author-email-text" class="mt-1 text-base font-bold text-slateink-900 break-all">
+                  ratan.kalita@gmail.com
+                </p>
+              </div>
+
+              <div class="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="mailto:ratan.kalita@gmail.com?subject=Bulk%20Paperback%20Inquiry%20%E2%80%94%20The%20Practical%20Guide%20to%20Primary%20Eye%20Care"
+                  class="flex-1 inline-flex items-center justify-center px-4 py-3 rounded-xl bg-clinical-700 text-white text-sm font-semibold hover:bg-clinical-800 transition-colors text-center"
+                >
+                  Send Email Inquiry
+                </a>
+
+                <button
+                  type="button"
+                  id="copy-email-btn"
+                  onclick="copyAuthorEmail()"
+                  class="inline-flex items-center justify-center px-4 py-3 rounded-xl bg-white text-slateink-800 text-sm font-semibold border border-slateink-300 hover:bg-slateink-100 transition-colors cursor-pointer"
+                >
+                  Copy Email
+                </button>
+              </div>
+
+              <p
+                id="copy-status"
+                role="status"
+                aria-live="polite"
+                class="text-xs font-medium text-clinical-800 min-h-[1.25rem]"
+              ></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 7: Footer & GitHub Pages / ratansystems.in/books Routing Note -->
+  <footer class="bg-slateink-900 text-slate-300 py-10 border-t border-slateink-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div>
+          <p class="text-sm font-semibold text-white">
+            The Practical Guide to Primary Eye Care — Ratan Kalita, B.Optom
+          </p>
+          <p class="text-xs text-slate-400 mt-1">
+            Hub routing plan: Hosted via GitHub Pages and mapped/routed to <code class="text-clinical-100">ratansystems.in/books</code>.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-4 text-xs font-medium">
+          <a
+            href="https://www.amazon.in/dp/B0HSJLS2W1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-slate-200 hover:text-clinical-100 underline underline-offset-4"
+          >
+            Amazon.in (₹249)
+          </a>
+          <a
+            href="https://www.amazon.com/dp/B0HSJLS2W1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-slate-200 hover:text-clinical-100 underline underline-offset-4"
+          >
+            Amazon.com
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t border-slateink-800 text-xs text-slate-400 flex flex-col sm:flex-row sm:justify-between gap-2">
+        <span>RRRNA ISBN Application Ref: 62494|ISBN|2026|A</span>
+        <span>Clinical &amp; Educational Reference Hub</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Clipboard Handler -->
+  <script>
+    function copyAuthorEmail() {
+      const email = 'ratan.kalita@gmail.com';
+      const statusEl = document.getElementById('copy-status');
+
+      try {
+        // Fallback execCommand for iframe/restricted webview compatibility
+        const tempInput = document.createElement('input');
+        tempInput.value = email;
+        tempInput.setAttribute('readonly', '');
+        tempInput.style.position = 'absolute';
+        tempInput.style.left = '-9999px';
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        const copied = document.execCommand('copy');
+        document.body.removeChild(tempInput);
+
+        if (copied) {
+          statusEl.textContent = 'Copied ratan.kalita@gmail.com to clipboard.';
+          return;
+        }
+      } catch (err) {
+        // Continue to next fallback message
+      }
+
+      if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+        navigator.clipboard
+          .writeText(email)
+          .then(function () {
+            statusEl.textContent = 'Copied ratan.kalita@gmail.com to clipboard.';
+          })
+          .catch(function () {
+            statusEl.textContent = 'Email: ratan.kalita@gmail.com';
+          });
+      } else {
+        statusEl.textContent = 'Email: ratan.kalita@gmail.com';
+      }
+    }
+  </script>
+</body>
+</html>
